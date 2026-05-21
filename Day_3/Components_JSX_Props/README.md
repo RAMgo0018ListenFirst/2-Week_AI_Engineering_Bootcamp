@@ -1,0 +1,1 @@
+This a a code to understand components,JSX,props
