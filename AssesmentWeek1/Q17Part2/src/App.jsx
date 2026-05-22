@@ -1,10 +1,7 @@
-// Import reusable UI components.
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
 import Card from "./components/Card"
-
 function App() {
-  // Data used to render each card on the page.
   const cardsData = [
     {
       title: "card 1",
@@ -23,16 +20,12 @@ function App() {
       description: "card 4 desc"
     }
   ]
-
   return (
     <>
-      {/* Top navigation bar */}
       <Navbar />
 
-      {/* Cards container */}
       <div className="cards">
         {cardsData.map((card, index) => {
-          // Render one Card per item in the data array.
           return (
             <Card
               key={index}
@@ -42,11 +35,8 @@ function App() {
           )
         })}
       </div>
-
-      {/* Page footer */}
       <Footer />
     </>
   )
 }
-
 export default App
