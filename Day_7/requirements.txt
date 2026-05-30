@@ -1,0 +1,37 @@
+# Core LangChain
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# Mistral Integration
+langchain-mistralai
+mistralai
+
+# Vector Databases
+faiss-cpu
+chromadb
+
+# Embeddings
+sentence-transformers
+
+# Document Loaders
+pypdf
+python-docx
+unstructured
+pdfplumber
+
+# Tokenization
+tiktoken
+
+# Environment Variables
+python-dotenv
+
+# API / Backend
+fastapi
+uvicorn
+
+# Utilities
+requests
+numpy
+pandas
